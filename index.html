@@ -24,10 +24,37 @@
             <div class="cartCounter flex">0</div>
         </div>
     </div>
-    <div class="products">
-        <div class="prod1"></div>
-        <div class="prod2"></div>
-        <div class="prod3"></div>
+    <div class="cartItems hide">
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
     </div>
+    <div class="products">
+        <div class="product" data-id={}>
+            <span class="product-title">Ryzen 9 5950X</span>
+            <img class="product-image" src="https://tisk.com/wp-content/uploads/2021/11/4-transparency.png" />
+            <div class="product-details">
+                <span class="product-price"><i>$599.99</i></span>
+                <button class="btn btn-primary product-button" type="button">Add to cart</button>
+            </div>
+        </div>
+        <div class="product" data-id={}>
+            <span class="product-title">Ryzen 7 5800X</span>
+            <img class="product-image" src="https://tisk.com/wp-content/uploads/2021/12/4-transparency.png" />
+            <div class="product-details">
+                <span class="product-price"><i>$329.99</i></span>
+                <button class="btn btn-primary product-button" type="button">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
 </body> 
 </html>
+
+
+
